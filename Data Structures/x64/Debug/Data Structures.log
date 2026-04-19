@@ -1,0 +1,55 @@
+﻿  Data Structures.cpp
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(25,18): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(29,24): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(142,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(194,51): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(384,38): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(393,39): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(552,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(558,38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(562,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         ]
+  (compiling source file 'Data%20Structures.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54):
+      the template instantiation context (the oldest one first) is
+          C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(127,32):
+          see reference to function template instantiation 'std::pair<int,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+              C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(127,28):
+              see the first reference to 'std::pair<int,float>::pair' in 'IslamabadMap::initializeMap'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         ]
+  (compiling source file 'Data%20Structures.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,16):
+      the template instantiation context (the oldest one first) is
+          C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(149,17):
+          see reference to function template instantiation 'std::pair<float,int>::pair<int,int&,0>(_Other1 &&,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=int &
+          ]
+              C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\Data Structures\Data Structures.cpp(149,16):
+              see the first reference to 'std::pair<float,int>::pair' in 'IslamabadMap::dijkstra'
+  
+  Data Structures.vcxproj -> C:\Users\faraz\Documents\Air University\3rd Semester\Data Structures Project\x64\Debug\Data Structures.exe
